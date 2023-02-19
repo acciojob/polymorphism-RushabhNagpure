@@ -3,7 +3,7 @@ import  java.lang.Override;
 
 public  class Main {
 
-    static class  Product{
+   public  static class  Product{
         public int product(int x, int y) {
             return (x*y);
         }
