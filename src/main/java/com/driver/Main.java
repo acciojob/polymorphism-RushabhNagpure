@@ -1,18 +1,19 @@
 package com.driver;
-
+import  java.lang.Override;
 
 public  class Main {
-      static class  Product{
+
+    static class  Product{
         public int product(int x, int y) {
-            return product(x,y);
+            return (x*y);
         }
 
         public int product(int x, int y, int z) {
-            return product(x, y, z);
+            return (x* y *z);
         }
 
         public double product(double x, double y) {
-            return product(x,y);
+            return (x*y);
         }
 
 
@@ -22,12 +23,8 @@ public  class Main {
     public  static void main(String[] args) {
         Product p = new Product();
        p.product(10,30);
-
-       Product p2 = new Product();
        p.product(20,50,60);
-
-       Product p3 = new Product();
-       p.product(90,80);
+       p.product(9.0,8.0);
 
 
 
